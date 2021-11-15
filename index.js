@@ -33,3 +33,11 @@ Object.keys(_themes).forEach(function (key) {
   if (key in exports && exports[key] === _themes[key]) return;
   exports[key] = _themes[key];
 });
+
+var _sharedUtils = require("./shared-utils");
+
+Object.keys(_sharedUtils).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (key in exports && exports[key] === _sharedUtils[key]) return;
+  exports[key] = _sharedUtils[key];
+});

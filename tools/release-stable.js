@@ -3,9 +3,10 @@ import fs from 'fs-extra';
 import git from 'simple-git/promise';
 import path from 'path';
 
-const repoURL = `https://${
-  process.env.GH_TOKEN
-}@github.com/grommet/grommet.git`;
+// const repoURL = `https://${
+//   process.env.GH_TOKEN
+// }@github.com/grommet/grommet.git`;
+const repoURL = `https://github.com/nikita-yaroshevich/grommet`;
 const localFolder = path.resolve('.tmp/grommet');
 const localDist = path.resolve('dist');
 
