@@ -1,7 +1,7 @@
 "use strict";
 
 exports.__esModule = true;
-exports.StyledBoxGap = exports.StyledBox = void 0;
+exports.directionStyle = exports.gapStyle = exports.StyledBoxGap = exports.StyledBox = void 0;
 
 var _styledComponents = _interopRequireWildcard(require("styled-components"));
 
@@ -51,6 +51,8 @@ var directionStyle = function directionStyle(direction, theme) {
 
   return styles;
 };
+
+exports.directionStyle = directionStyle;
 
 var elevationStyle = function elevationStyle(elevation) {
   return (0, _styledComponents.css)(["box-shadow:", ";"], function (props) {
@@ -277,6 +279,7 @@ var gapStyle = function gapStyle(directionProp, gap, responsive, border, theme) 
   return styles;
 };
 
+exports.gapStyle = gapStyle;
 StyledBox.defaultProps = {};
 Object.setPrototypeOf(StyledBox.defaultProps, _defaultProps.defaultProps);
 

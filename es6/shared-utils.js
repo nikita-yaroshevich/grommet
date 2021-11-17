@@ -1,4 +1,5 @@
-import { alignContentStyle, alignStyle, backgroundStyle, borderStyle, breakpointStyle, edgeStyle, fillStyle, focusStyle, genericStyles, getBreakpointStyle, getHoverIndicatorStyle, heightStyle, overflowStyle, parseMetricToNum, responsiveBorderStyle, widthStyle, roundStyle } from './utils'; // import { roundStyle } from './utils/styles';
+import { alignContentStyle, alignStyle, backgroundStyle, borderStyle, breakpointStyle, edgeStyle, fillStyle, focusStyle, genericStyles, getBreakpointStyle, getHoverIndicatorStyle, heightStyle, overflowStyle, parseMetricToNum, responsiveBorderStyle, widthStyle, roundStyle } from './utils';
+import { gapStyle, directionStyle } from './components/Box/StyledBox'; // import { roundStyle } from './utils/styles';
 
 export var GrommetSharedUtils = {
   alignContentStyle: alignContentStyle,
@@ -17,5 +18,7 @@ export var GrommetSharedUtils = {
   parseMetricToNum: parseMetricToNum,
   responsiveBorderStyle: responsiveBorderStyle,
   widthStyle: widthStyle,
-  roundStyle: roundStyle
+  roundStyle: roundStyle,
+  gapStyle: gapStyle,
+  directionStyle: directionStyle
 };

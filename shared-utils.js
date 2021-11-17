@@ -5,6 +5,8 @@ exports.GrommetSharedUtils = void 0;
 
 var _utils = require("./utils");
 
+var _StyledBox = require("./components/Box/StyledBox");
+
 // import { roundStyle } from './utils/styles';
 var GrommetSharedUtils = {
   alignContentStyle: _utils.alignContentStyle,
@@ -23,6 +25,8 @@ var GrommetSharedUtils = {
   parseMetricToNum: _utils.parseMetricToNum,
   responsiveBorderStyle: _utils.responsiveBorderStyle,
   widthStyle: _utils.widthStyle,
-  roundStyle: _utils.roundStyle
+  roundStyle: _utils.roundStyle,
+  gapStyle: _StyledBox.gapStyle,
+  directionStyle: _StyledBox.directionStyle
 };
 exports.GrommetSharedUtils = GrommetSharedUtils;

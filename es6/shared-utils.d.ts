@@ -16,6 +16,8 @@ declare const GrommetSharedUtils: {
   responsiveBorderStyle: (...any) => any,
   widthStyle: (...any) => any,
   roundStyle: (...any) => any,
+  gapStyle: (...any) => any,
+  directionStyle: (...any) => any,
 };
 
 export { GrommetSharedUtils };

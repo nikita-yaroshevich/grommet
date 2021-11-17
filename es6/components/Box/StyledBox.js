@@ -271,4 +271,4 @@ var StyledBoxGap = styled.div.withConfig({
 });
 StyledBoxGap.defaultProps = {};
 Object.setPrototypeOf(StyledBoxGap.defaultProps, defaultProps);
-export { StyledBox, StyledBoxGap };
+export { StyledBox, StyledBoxGap, gapStyle, directionStyle };
