@@ -3,13 +3,16 @@ import fs from 'fs-extra';
 import git from 'simple-git/promise';
 import path from 'path';
 
+// const repoURL = `https://${
+//   process.env.GH_TOKEN
+// }@github.com/grommet/grommet.git`;
 const repoURL = `https://${
   process.env.GH_TOKEN
-}@github.com/grommet/grommet.git`;
+}@github.com/nikita-yaroshevich/grommet.git`;
 const localFolder = path.resolve('.tmp/grommet');
 const localDist = path.resolve('dist');
 
-if (process.env.CI) {
+if (true || process.env.CI) {
   del(localFolder).then(() => {
     git()
       .silent(false)
