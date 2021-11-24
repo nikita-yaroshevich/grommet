@@ -20,6 +20,5 @@ export var GrommetSharedUtils = {
   widthStyle: widthStyle,
   roundStyle: roundStyle,
   gapStyle: gapStyle,
-  directionStyle: directionStyle,
-  StyledBoxGap: StyledBoxGap
+  directionStyle: directionStyle
 };

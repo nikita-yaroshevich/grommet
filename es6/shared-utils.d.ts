@@ -19,8 +19,7 @@ declare const GrommetSharedUtils: {
   widthStyle: (...any) => any,
   roundStyle: (...any) => any,
   gapStyle: (...any) => any,
-  directionStyle: (...any) => any,
-  StyledBoxGap: React.FC
+  directionStyle: (...any) => any
 };
 
 export { GrommetSharedUtils };
