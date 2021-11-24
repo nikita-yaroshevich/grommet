@@ -1,3 +1,5 @@
+import React from "react";
+
 declare const GrommetSharedUtils: {
   alignContentStyle: (...any) => any,
   alignStyle: (...any) => any,
@@ -18,6 +20,7 @@ declare const GrommetSharedUtils: {
   roundStyle: (...any) => any,
   gapStyle: (...any) => any,
   directionStyle: (...any) => any,
+  StyledBoxGap: React.FC
 };
 
 export { GrommetSharedUtils };
